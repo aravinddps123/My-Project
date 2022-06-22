@@ -1,0 +1,15 @@
+
+
+<form   method="post">
+  {% csrf_token %}
+<h2>Are you sure you want to delete   {{ item.item_name }}</h2>
+<button type="submit" name="button">Confirm</button>
+
+</form>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-8">
+    <a href="{% url 'food:index' %}" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
+  </div>
+</div>

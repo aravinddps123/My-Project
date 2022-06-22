@@ -1,0 +1,52 @@
+
+Package Creation json
+
+{
+  "bank": 5,
+  "mask": false,
+  "rate_category": "standard",
+  "rate_type": "sora",
+  "property_types": [
+    "hdb"
+  ],
+  "property_status": [
+    "completed"
+  ],
+  "loan_category": [
+    "refinance_cash_out_term_loan"
+  ],
+  "rates": [
+    {
+      "year": "year_1",
+      "reference_rate": 1,
+      "bank_spread": 0
+    }
+  ],
+  "lock_in_period": "1",
+  "min_loan_amount": 0,
+  "deposit_to_place": "NA",
+  "valuation_subsidy": [
+    "NA"
+  ],
+  "fire_insurance_subsidy": "NA",
+  "cash_rebate_legal_subsidy": [
+    "NA"
+  ],
+  "cash_rebate_subsidy_clawback_period_years": "3",
+  "partial_repayment_penalty": "1.50%",
+  "partial_repayment_penalty_remarks": "NA",
+  "full_repayment_penalty": "1.50%",
+  "full_repayment_penalty_remarks": "NA",
+  "cancellation_fee": "0.75%",
+  "deposit_to_place_remarks": "NA",
+  "remarks_for_client": [
+    "NA"
+  ],
+  "interest_offsetting": "NA",
+  "interest_reset_date": false,
+  "processing_fee": false,
+  "remarks_for_broker": "string",
+  "new_purchase_referral_fee": "0.15%",
+  "refinance_referral_fee": "0.15%",
+  "publish": false
+}
